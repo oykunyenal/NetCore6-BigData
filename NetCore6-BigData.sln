@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigDataWebGUI", "BigDataWebGUI\BigDataWebGUI.csproj", "{445BE0DF-63D2-4164-9475-6BFAE315732D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigDataEntities", "BigDataEntities\BigDataEntities.csproj", "{32D17FB7-331D-481F-8117-A05C5B14AC49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{445BE0DF-63D2-4164-9475-6BFAE315732D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445BE0DF-63D2-4164-9475-6BFAE315732D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{445BE0DF-63D2-4164-9475-6BFAE315732D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445BE0DF-63D2-4164-9475-6BFAE315732D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32D17FB7-331D-481F-8117-A05C5B14AC49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D17FB7-331D-481F-8117-A05C5B14AC49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D17FB7-331D-481F-8117-A05C5B14AC49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D17FB7-331D-481F-8117-A05C5B14AC49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F580251-4CB0-4365-B1B4-4A4726FD522C}
+	EndGlobalSection
+EndGlobal
