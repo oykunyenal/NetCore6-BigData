@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigDataWebGUI", "BigDataWebGUI\BigDataWebGUI.csproj", "{445BE0DF-63D2-4164-9475-6BFAE315732D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BigDataWebGUI", "BigDataWebGUI\BigDataWebGUI.csproj", "{445BE0DF-63D2-4164-9475-6BFAE315732D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigDataEntities", "BigDataEntities\BigDataEntities.csproj", "{32D17FB7-331D-481F-8117-A05C5B14AC49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BigDataEntities", "BigDataEntities\BigDataEntities.csproj", "{32D17FB7-331D-481F-8117-A05C5B14AC49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigDataDAL", "BigDataDAL\BigDataDAL.csproj", "{999A1DAB-E6CA-4E48-B309-5EBFD7FB50EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{32D17FB7-331D-481F-8117-A05C5B14AC49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32D17FB7-331D-481F-8117-A05C5B14AC49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32D17FB7-331D-481F-8117-A05C5B14AC49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{999A1DAB-E6CA-4E48-B309-5EBFD7FB50EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{999A1DAB-E6CA-4E48-B309-5EBFD7FB50EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{999A1DAB-E6CA-4E48-B309-5EBFD7FB50EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{999A1DAB-E6CA-4E48-B309-5EBFD7FB50EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
