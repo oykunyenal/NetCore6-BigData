@@ -1,4 +1,10 @@
+using BigDataDAL.Context;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddEntityFrameworkNpgsql().AddDbContext<BigDataContext>(option => 
+option.UseNpgsql(builder.Configuration.GetConnectionString("PostgreConnectionString")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
